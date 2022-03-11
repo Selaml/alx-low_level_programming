@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char a = "abcdefghijklmnopqrstuvwxyz";
+	String a = "abcdefghijklmnopqrstuvwxyz";
 
 	putchar(tolower(a));
 	return (0);
