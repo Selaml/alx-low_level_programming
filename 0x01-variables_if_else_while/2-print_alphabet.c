@@ -1,16 +1,23 @@
-#include <stdio.h>
-#include <ctype.h>
+/*
+ * File: 2-print_alphabet.c
+ * Auth: Brennan D Baraban
+ */
 
+#include <stdio.h>
 
 /**
- * main - converts to lower case
+ * main - Prints the alphabet in lowercase.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	char a = 'abcdefghijklmnopqrstuvwxyz';
+	char letter;
 
-	putchar(tolower(a));
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
 	return (0);
 }
