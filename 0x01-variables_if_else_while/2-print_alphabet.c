@@ -9,6 +9,6 @@
  */
 int main(void)
 {
-	putchar(tolower(A));
+	putchar(tolower('A'));
 	return (0);
 }
