@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <ctype.h>
+
 
 /**
  * main - converts to lower case
