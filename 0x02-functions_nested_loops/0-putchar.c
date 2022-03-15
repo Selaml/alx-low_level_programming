@@ -1,4 +1,4 @@
-#include "main.h"
+#include "putchar.c"
 
 
 /**
@@ -9,7 +9,16 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+        _putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
 
 	return (0);
 }
