@@ -1,10 +1,10 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
-  * print_sign Checks for lowercase character
-  * @c: The character to be checked
+  * print_sign prints the sign of a number.
+  * 
   *
-  * Return: 1 for lowercase character or 0 for anything 
+  * Return: 1 -1and 0
   */
 int print_sign(int n)
 {
