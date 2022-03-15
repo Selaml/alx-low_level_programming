@@ -7,10 +7,9 @@
   */
 int _islower(int c)
 {
-
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (c)
+		if (c = c)
 		{
 			 _putchar('1');
 		}
@@ -18,7 +17,6 @@ int _islower(int c)
 		{
 			 _putchar('0');
 		}
+		return (0);
 	}
-	return (0);
 }
-
