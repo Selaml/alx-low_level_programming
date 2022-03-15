@@ -1,4 +1,5 @@
-#include "putchar.c"
+#include<unistd.h>
+#include<main.h>
 
 
 /**
