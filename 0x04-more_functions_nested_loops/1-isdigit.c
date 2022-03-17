@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
   * _isdigit - Check if a character is a digit
@@ -8,7 +8,7 @@
   */
 int _isdigit(int c)
 {
-	if (c >= 0 && c < 10)
+	if (c >= 0 && x <= 9)
 	{
 		return (1);
 	}
