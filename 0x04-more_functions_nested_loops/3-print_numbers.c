@@ -6,7 +6,7 @@
   *
   * Return: 1 for a character that will be a digit or 0 for any else
   */
-void print_most_numbers(void)
+void print_numbers(void)
 {
 	int n;
 
