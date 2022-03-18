@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-  * print_most_numbers- Check if a character is a digit
-  * @n: The number to be checked
+  * print_numbers- function that prints the numbers, from 0 to 9
+  * 
   *
-  * Return: 1 for a character that will be a digit or 0 for any else
+  * Return: Always 0 (success)
   */
 void print_numbers(void)
 {
