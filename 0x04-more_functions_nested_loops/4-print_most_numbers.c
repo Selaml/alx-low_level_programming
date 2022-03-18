@@ -1,17 +1,27 @@
 #include "main.h"
+
 /**
- * print_most_numbers - print all number from 0 to 9 expext 2 and 4.
- *
- * Return:void
- */
+  * print_most_numbers - Print the numbers since 0 up to 9
+  *
+  * Description: Prints the numbers excluding 2 and 4
+  *
+  * Return: The numbers since 0 up to 9
+  */
 void print_most_numbers(void)
 {
-        int i;
+	int x = 0;
 
-	for (i = 48; i <= 57; i++)
+	for (; x <= 9; x++)
 	{
-		if ((i != 50) && (i != 52))
-			_putchar(i);
+		if (x == 2 || x == 4)
+		{
+			continue;
+		}
+		else
+		{
+			_putchar(x + '0');
+		}
 	}
-    _putchar('\n');
+
+	_putchar('\n');
 }
