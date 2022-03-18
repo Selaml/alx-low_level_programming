@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
- * print_numbers - display all number from 0 to 9 followed by new line.
- *
- *Return: void
- */
+  * _isdigit - Check if a character is a digit
+  * @x: The number to be checked
+  *
+  * Return: 1 for a character that will be a digit or 0 for any else
+  */
 void print_numbers(void)
 {
-int i;
+	int n;
 
-	for (i = 48; i <= 57; i++)
+	for (n = 0; n <= 10; n++)
 	{
-		_putchar(i);
+		_putchar(n);
 	}
-_putchar('\n');
+
+	return (0);
 }
