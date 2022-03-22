@@ -3,15 +3,11 @@
 
 
 /**
- * reset_to_98- check the code
- *
- * Return: Always 0.
+ * reset_to_98- takes a pointer to an int and updates
+ *               the value it points to to 98.
+ * @n: The pointer to an int.
  */
 void reset_to_98(int *n)
 {	
-	int p;
-
-        p = 98;
-	n = &p;
-	putchar(n + '0');
+	*n = 98;
 }	
